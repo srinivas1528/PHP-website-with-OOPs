@@ -15,7 +15,7 @@ $message = $e->getMessage();
   <body>
     <h1>Class of 2018 Pictures</h1>
     <hr>
-    <h2>It's Good Time</h2>
+    <h2>It's a Good Time</h2>
     <hr>
     <div class="wrapper">
       <div class="container">
@@ -39,6 +39,7 @@ $message = $e->getMessage();
       </div>
       <div class="outerItem">
         <?php
+        // Its better not to hard code the value to 20..
           for($i=0; $i<20; $i++){
             echo "<p>We will use it later.</p>";
           }
