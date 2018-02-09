@@ -77,6 +77,7 @@ $_SESSION['rand'] = $rand;
       </div>
       <div class="outerItem">
         <?php
+          //better not to use hard code
           for($i=0; $i<20; $i++){
             echo "<p>We will use it later.</p>";
           }
